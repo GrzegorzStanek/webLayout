@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    padding-left: 20px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+textarea {
+    font-family: 'Lato', 'Arial', sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+
+.myPage {
+    background-color: rgb(238, 232, 232);
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.heading {
+    float: right;
+}
+
+.listStyle ul {
+    padding-top: 7px;
+    padding-right: 10px;
+}
+
+.listStyle li {
+    font-size: 12px;
+    padding: 3px;
+    display: inline;
+}
+
+.headingInfo {
+    width: 400px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+.headingInfo p {
+    font-size: 18px;
+}
+
+.headingInfo button,
+.formButton button {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #10c9c3;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+.secondPart {
+    padding: 50px 0;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+}
+
+.secondPart p {
+    padding: 0 70px;
+}
+
+.thirdPart {
+    justify-content: stretch;
+    height: auto;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+.thirdPart {
+    background: linear-gradient( to right, rgb(247, 247, 247) 0%, rgb(247, 247, 247) 50%, rgb(223, 223, 223) 50%, rgb(223, 223, 223) 100%);
+}
+
+.thirdPart1 p {
+    font-size: 18px;
+    color: #000;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.thirdPart1 img {
+    width: 40%;
+    height: auto;
+}
+
+.nextPart {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #10c9c3;
+}
+
+.nextPart ion-icon {
+    color: #fff;
+}
+
+.nextPart li {
+    display: inline-block;
+    padding: 15px;
+    text-align: left;
+    color: #fff;
+}
+
+.nextPart ul {
+    font-size: 15px;
+}
+
+.loadWork {
+    display: block;
+}
+
+.loadWork p {
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 0 10px 15px;
+    text-align: center;
+}
+
+.fourthListOne img,
+.fourthListTwo img {
+    display: block;
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.galleryPart a {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(247, 247, 247);
+    font-size: 15px;
+}
+
+.fifthPart {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.fifthPart p {
+    font-size: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.sixthPart ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+    ;
+}
+
+.sixthPart li {
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+.sixthPart h4 {
+    font-size: 15px;
+}
+
+.sixthPart p {
+    font-size: 15px;
+}
+
+.sixthPart ion-icon {
+    opacity: 0.5;
+}
+
+.seventhPart {
+    display: block;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #10c9c3;
+    color: #fff;
+}
+
+.seventhPart p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.author {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.container ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+.container img {
+    opacity: 0.5;
+    width: 95%;
+    height: auto;
+}
+
+.container li {
+    display: flex;
+    padding: 0 30px;
+}
+
+.myForm {
+    display: inline;
+    text-align: center;
+}
+
+.myForm p {
+    padding: 10px 50px;
+    font-size: 18px;
+}
+
+.formInside {
+    padding: 50px 0;
+}
+
+.fuckingForm input {
+    margin: 5px;
+}
+
+input[type="title"]::placeholder {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.fuckingEmail,
+.fuckingName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fuckingEmail input,
+.fuckingName input {
+    padding: 10px 30px;
+}
+
+.fuckingTitle input {
+    width: 450px;
+    height: 50px;
+}
+
+footer {
+    padding: 50px 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+}
+
+footer ul {
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.footerEmail {
+    font-size: 12px;
+}
+
+.creditsDesign {
+    font-size: 15px;
+}
+
+.piroll {
+    font-weight: 300;
+    padding-top: 20px;
+}
